@@ -23,3 +23,5 @@ elif forma == 4:
         print(f'Valor a ser pago: {valor + (valor * 0.2):.2f} em {parc}x de {(valor + (valor * 0.2))/parc:.2f}')
     else:
         print('Algo está errado, tente novamente')
+else:
+    print('Algo está errado, tente novamente')
