@@ -4,7 +4,7 @@
 # — Escaleno: todos os lados diferentes
 
 print('-=' * 20)
-print('Analisador de Triângulos')
+print(f'{" " * 8} Analisador de Triângulos')
 print('-=' * 20)
 r1 = float(input('Primeiro seamento: '))
 r2 = float(input('Segundo segmento: '))
