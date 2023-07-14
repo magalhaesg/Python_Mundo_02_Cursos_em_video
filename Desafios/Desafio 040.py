@@ -8,15 +8,15 @@ print('CALCULO DE MÉDIA')
 
 try:
     # Solicita ao usuário as notas e converte para float
-    n1 = float(input('Digite a sua primeira nota: '))
-    n2 = float(input('Digite a sua segunda nota: '))
+    n1 = float(input('Digite a sua primeira nota: ').replace(',', '.')) #Utulizamos o replace para corrigir o erro de virgula no lugar do ponto. Já que aqui no Brasil usamos virgula com mais frequecia
+    n2 = float(input('Digite a sua segunda nota: ').replace(',', '.'))
 
     # Calcula a média das notas
     media = (n1 + n2) / 2
 
     # Verifica se as notas estão dentro do intervalo válido
-    if n1 >= 10.01 or n2 >= 10.01:
-        print('Ocorreu um erro. Pedimos que tente novamente\nLembre-se que a nota máxima para cada avaliação e a média são de no máximo 10 pontos.')
+    if n1 >= 10.01 or n2 >= 10.01 or n1 < 0 or n2 < 0:
+        print('Ocorreu um erro. Pedimos que tente novamente\nLembre-se que a nota máxima para cada avaliação e a média são de no minimo 1 e máximo 10 pontos.')
     else:
         # Verifica a categoria do aluno com base na média
         if media < 5.0:
