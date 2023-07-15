@@ -24,3 +24,4 @@ elif (jogador == 'Pedra' and computador == 'Tesoura') or (jogador == 'Papel' and
     print('Jogador venceu')
 else:
     print('Computador venceu')
+    print('test')
