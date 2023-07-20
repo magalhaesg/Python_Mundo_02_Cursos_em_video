@@ -1,0 +1,1 @@
+# Faça um programa que calcule a soma entre todos os números impares que são múltiplos de três e qua se encontram no intervalo da 1 até 5OO.

@@ -9,8 +9,8 @@ for d in range (6, 0, -1):
 
 print('____________________________________')
 
-n = int(input('Digite um n√∫mero: '))
-for e in range(1,n):
+n = int(input('Digite um numero: '))
+for e in range(1,n+1):
     print(e)
 
 print('____________________________________')
@@ -20,4 +20,18 @@ for t in range(0, 6, 2):
 
 print('____________________________________')
 
+
+i = int(input('Inicio: '))
+f = int(input('Fim: '))
+p = int(input('Passo: '))
+for g in range (i, f+1, p):
+    print(g)
+print('FIM')
+
+print('____________________________________')
+
+for z in range(0,3):
+    n = int(input('Digite um valor: '))
+    s += n
+print(f'O somatorio È {s}')
 

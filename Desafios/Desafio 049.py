@@ -1,0 +1,1 @@
+# Refaça o desafio 09. Mostrar a tabuada de um número que o usuário escolher, utilizando um laço for.
