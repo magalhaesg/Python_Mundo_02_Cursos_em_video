@@ -1,1 +1,7 @@
-# Refaça o desafio 09. Mostrar a tabuada de um número que o usuário escolher, utilizando um laço for.
+# -*- coding: utf-8 -*-
+# RefaÃ§a o desafio 09. Mostrar a tabuada de um nÃºmero que o usuÃ¡rio escolher, utilizando um laÃ§o for.
+
+n = int(input('Digite o nÃºmero da tabuada que deseja visualizar: '))
+for i in range(0, 11):
+    print(f'{n} x {i} = {n * i}')
+
