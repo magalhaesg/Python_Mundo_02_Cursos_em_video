@@ -1,1 +1,8 @@
-# Faça um programa que leia um número e diga se ele é ou não um número primo.
+# -*- coding: utf-8 -*-
+# FaÃ§a um programa que leia um nÃºmero e diga se ele Ã© ou nÃ£o um nÃºmero primo.
+
+num = int(input('Digite um nÃºmero: '))
+if num % 2 == 0 or num % 3 == 0 or num % 5 == 0 or num % 7 == 0:
+    print('NÃ£o Ã© primo')
+else:
+    print('Ã‰ primo')
