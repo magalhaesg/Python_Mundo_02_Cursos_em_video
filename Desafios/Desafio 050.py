@@ -4,7 +4,7 @@
 num_par = 0
 num_impar = 0
 for i in range(0, 6):
-    num = int(input(f'Digite um número {i+1} de 6: '))
+    num = int(input(f'Digite o número {i+1} de 6: '))
     if num % 2 == 0:
         num_par += num
     else:

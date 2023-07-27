@@ -3,11 +3,14 @@
 
 vet_ano = [ ]
 cont = 0
-for i in range(0, 7):
-    ano = int(input('Digite o ano de nascimento: '))
+for i in range(1, 8):
+    ano = int(input(f'Digite o ano de nascimento da {i}ª pessoa: '))
     vet_ano.append(ano)
 
 for ano in vet_ano:
     if 2005 < ano:
         cont += 1
-print(f'A quantidade de pessoas que ainda não atingiram a maioridade: {cont}')
+print(f'A quantidade de pessoas que ainda não atingiram a maioridade: {cont}\n'
+    f'Pessoas que já atingiram a maior idade: {7 - cont}')
+
+

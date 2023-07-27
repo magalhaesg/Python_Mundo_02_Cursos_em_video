@@ -14,4 +14,5 @@ r = int(input('Digite uma razão: '))
 
 #print(f'a{n} = {a1 + (n - 1) * r}')
 for i in range(1, 11):
-    print(f'a{i} = {a1 + (i - 1) * r}')
+    print(f'a{i} = {a1 + (i - 1) * r}', end=' >>> ')
+print('Fim')

@@ -4,7 +4,7 @@ import time
 import os
 
 for i in range(10, 0, -1):
-    time.sleep(1)
+    time.sleep(0.9)
     print(f'{i}')
     os.system("cls")  # comando limpa tela
 print('FELIZ ANO NOVOOO!')
