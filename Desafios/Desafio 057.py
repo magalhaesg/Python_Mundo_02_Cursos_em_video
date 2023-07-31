@@ -7,3 +7,4 @@ while sexo != 'M' and sexo != 'F':
         print('Tente novamente.')
     else:
         print('Entrada registrada!')
+

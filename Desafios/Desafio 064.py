@@ -1,1 +1,13 @@
-# Crie um programa que leia v·rios n˙meros inteiros pelo teclado. O programa sÛ vai parar quando o usu·rio digitar o valor 999, que È a condiÁ„o de parada. No final, mostre quantos n˙meros foram digitados e qual foi a soma entre eles (desconsiderando o flag).
+# -*- coding: utf-8 -*-
+# Crie um programa que leia v√°rios n√∫meros inteiros pelo teclado. O programa s√≥ vai parar quando o usu√°rio digitar o valor 999, que √© a condi√ß√£o de parada. No final, mostre quantos n√∫meros foram digitados e qual foi a soma entre eles (desconsiderando o flag).
+
+num = int(0)
+soma = 0
+cont = 0
+print('Contador e somador de n√∫meros infinito.\nPara parar digite o n√∫mero 999')
+while num != 999:
+    num = int(input('Digite um n√∫mero: '))
+    if num != 999:
+        soma += num
+        cont += 1
+print(f'Soma: {soma} / Contagem {cont}')
