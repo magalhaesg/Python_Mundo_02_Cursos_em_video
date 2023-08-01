@@ -18,12 +18,12 @@ while True:
     if pmaisb == 0:
         pmaisb = preco
     elif pmaisb > preco:
-        npmaisb = prod
+        n_pmaisb = prod
     cparada = input('Deseja continuar? [S/N] ').upper()
     while cparada != 'S' and cparada != 'N':
         cparada = input('Deseja continuar? [S/N] ').upper()
     if cparada == 'N':
         print(f'Total gasto na compra: {total}')
         print(f'Quantos produtos custam mais de R$1000: {prod1000}')
-        print(f'Qual o nome do produto mais barato: {npmaisb}')
+        print(f'Qual o nome do produto mais barato: {n_pmaisb}')
         break

@@ -14,13 +14,13 @@ while True:
         print('CADASTRO DE PESSOAS'.center(40,' '))
         print(''.center(40, '-'))
         idade = int(input('Idade: '))
-        sexo = ''
+        sexo = ' '
         while sexo != 'F' and sexo != 'M':
-                sexo = input('Sexo: [M/F] ').upper()
+                sexo = input('Sexo: [M/F] ').upper()[0]
         print(''.center(40, '-'))
         increment = ''
         while increment != 'N' and increment != 'S':
-                increment = input('Deseja cadastrar mais uma pessoa? [S/N] ').upper()
+                increment = input('Deseja cadastrar mais uma pessoa? [S/N] ').upper()[0]
         print(''.center(40, '-'))
         if idade >= 18:
                 p18 += 1

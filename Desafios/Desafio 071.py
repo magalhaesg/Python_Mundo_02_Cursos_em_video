@@ -22,5 +22,6 @@ cont = 0 #criando e definindo contador
 for i in notas: # i percorrendo a lista notas [50, 20, 10, 1] = [0, 1, 2, 3]
     cedulas.append(saque//i) #divisao inteira entre valor do saque por valor da cédula (50, 20, 10, 1)
     saque = saque % i #saque tem seu valor atualizado para o resto da dividão entre saque e valor da cedula
-    print(f"{cedulas[cont]} notas de R${i}") #imprime a quantidade de cedulas usando a posição de lista criada pelo contador abaixo e o valor da cedula
+    if cedulas[cont] > 0:
+        print(f"{cedulas[cont]} notas de R${i}") #imprime a quantidade de cedulas usando a posição de lista criada pelo contador abaixo e o valor da cedula
     cont += 1 #contador responsavel por ajudar na impressão do numero de cedulas
