@@ -10,10 +10,9 @@
 
 n = int(input('Digite o primeiro termo: '))
 a1 = n
-r = int(input('Digite uma razão: '))
+r = int(input('Digite a razão da PA: '))
 cont = 0
-
 while cont != 10:
     cont += 1
-    print(f'a{cont} = {a1 + (cont - 1) * r}', end=' >>> ')
+    print(f'a{cont} = {a1 + (cont - 1) * r}', end=' -> ')
 print('Fim da PA')

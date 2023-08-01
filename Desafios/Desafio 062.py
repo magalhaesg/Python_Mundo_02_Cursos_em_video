@@ -11,8 +11,8 @@ resp = ''
 while not resp == 'N':
     while cont != lim:
         cont += 1
-        print(f'a{cont} = {a1 + (cont - 1) * r}', end=' --> ')
-    print('Fim da PA')
+        print(f'a{cont} = {a1 + (cont - 1) * r}', end=' -> ')
+    print('Pausa da PA')
     resp = input('Deseja mostrar mais termos? [S/N]').upper()
     if resp == 'S':
         lim += 10
